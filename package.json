@@ -1,0 +1,27 @@
+{
+  "name": "fast-yes",
+  "version": "1.0.0",
+  "description": "A fast implementation of yes utility in Node.js",
+  "main": "yes.js",
+  "scripts": {
+    "test": "node yes.js | pv > /dev/null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schahriar/fast-yes.git"
+  },
+  "bin": {
+    "fast-yes": "./bin/fast-yes.js"
+  },
+  "keywords": [
+    "yes",
+    "fast-yes",
+    "fast"
+  ],
+  "author": "Schahriar SaffarShargh <info@schahriar.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schahriar/fast-yes/issues"
+  },
+  "homepage": "https://github.com/schahriar/fast-yes#readme"
+}
